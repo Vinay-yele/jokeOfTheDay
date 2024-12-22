@@ -50,7 +50,7 @@ export default function QuoteOfTheDay() {
         ) : null}
         <Button onClick={fetchQuote} className="w-full mt-4" disabled={isLoading}>
           {isLoading ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : null}
-          New Quote
+          New Joke
         </Button>
       </CardContent>
     </Card>
